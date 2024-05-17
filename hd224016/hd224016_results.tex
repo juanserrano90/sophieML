@@ -1,0 +1,220 @@
+\documentclass{emulateapj}
+\usepackage{graphicx,textcomp,fancyhdr,hyperref}
+\begin{document}
+\pagestyle{fancy}
+\pagenumbering{gobble}
+\chead{Summary of \texttt{RadVel} results for HD224016 }
+
+% Model comparison table
+
+
+% Table of best fit parameters
+\begin{deluxetable}{lrrr}
+\tablecaption{ MCMC Posteriors }
+\tablehead{
+  \colhead{Parameter} & 
+  \colhead{Credible Interval} & 
+  \colhead{Maximum Likelihood} & 
+  \colhead{Units}
+}
+\startdata
+\sidehead{\bf{Modified MCMC Step Parameters}}
+
+  $P_{b}$ & $533.6^{+29.0}_{-9.8}$ & $527$ & days \\
+
+  $T\rm{conj}_{b}$ & $8705.0^{+6.5}_{-48.0}$ & $8709$ & JD \\
+
+  $T\rm{peri}_{b}$ & $8753.1^{+54.0}_{-4.8}$ & $8749$ & JD \\
+
+  $e_{b}$ & $0.665^{+0.16}_{-0.037}$ & $0.6$ &  \\
+
+  $\omega_{b}$ & $-2.86^{+0.98}_{-0.12}$ & $-2.95$ & radians \\
+
+  $K_{b}$ & $93.6^{+48.0}_{-6.5}$ & $91$ & m s$^{-1}$ \\
+
+\hline
+\sidehead{\bf{Orbital Parameters}}
+
+  $P_{b}$ & $533.6^{+29.0}_{-9.8}$ & $527$ & days \\
+
+  $T\rm{conj}_{b}$ & $8705.0^{+6.5}_{-48.0}$ & $8709$ & JD \\
+
+  $T\rm{peri}_{b}$ & $8753.1^{+54.0}_{-4.8}$ & $8749$ & JD \\
+
+  $e_{b}$ & $0.665^{+0.16}_{-0.037}$ & $0.6$ &  \\
+
+  $\omega_{b}$ & $-2.86^{+0.98}_{-0.12}$ & $-2.95$ & radians \\
+
+  $K_{b}$ & $93.6^{+48.0}_{-6.5}$ & $91$ & m s$^{-1}$ \\
+
+\hline
+\sidehead{\bf{Other Parameters}}
+
+  $\gamma_{\rm sophie}$ & $24.5^{+5.3}_{-3.4}$ & $22.4$ &  \\
+
+  $\dot{\gamma}$ & $\equiv0.0$ & $\equiv0.0$ & m s$^{-1}$ d$^{-1}$ \\
+
+  $\ddot{\gamma}$ & $\equiv0.0$ & $\equiv0.0$ & m s$^{-1}$ d$^{-2}$ \\
+
+  $\sigma_{\rm sophie}$ & $9.986^{+0.8}_{-0.066}$ & $10.0$ &  \\
+
+\enddata
+\tablenotetext{}{ 350000 links saved}
+\tablenotetext{}{
+  Reference epoch for $\gamma$,$\dot{\gamma}$,$\ddot{\gamma}$: 8759 
+}
+\label{tab:params}
+\end{deluxetable}
+
+% Table of derived parameters
+
+
+% Summary of priors
+\begin{deluxetable}{l}
+\tablecaption{ Summary of Priors }
+\tablehead{}
+\startdata
+
+  $e_{b}$ constrained to be $<0.99$ \\ \\
+
+  Gaussian prior on $T\rm{conj}_{b}$: $8759.8 \pm 600.0$ \\ \\
+
+  Bounded prior: $0.0 < \sigma_{\rm sophie} < 10.0$\\ \\
+
+\enddata
+\end{deluxetable}
+
+% Table of Final Convergence Criterion
+\begin{deluxetable}{lrrr}
+\tablecaption{ Final Convergence Criterion }
+\tablehead{
+  \colhead{Criterion} &
+  \colhead{Final Value}
+}
+\startdata
+
+  minAfactor & $ 13.850$ \\
+
+  maxArchange & $  0.006$ \\
+
+  maxGR & $  1.009$ \\
+
+  minTz & $3029.010$ \\
+
+\enddata
+\end{deluxetable}
+
+% Table of RV data
+\begin{deluxetable}{lrrc}
+\tablecaption{ Radial Velocities }
+\tablehead{
+  \colhead{Time} & 
+  \colhead{RV} & 
+  \colhead{RV Unc.} & 
+  \colhead{Inst.} \\
+  \colhead{(JD)} & 
+  \colhead{(m s$^{-1}$)} & 
+  \colhead{(m s$^{-1}$)} & 
+  \colhead{}
+}
+\startdata
+
+  8751.43887 & -103.69 & 1.83 & sophie \\
+
+  8827.30645 & 43.34 & 2.41 & sophie \\
+
+  8370.48273 & 35.69 & 1.86 & sophie \\
+
+  8761.47907 & -94.90 & 1.82 & sophie \\
+
+  8877.24982 & 30.20 & 3.54 & sophie \\
+
+  8427.36977 & 24.76 & 1.80 & sophie \\
+
+  8757.55800 & -110.61 & 2.28 & sophie \\
+
+  8693.56365 & -85.30 & 1.81 & sophie \\
+
+  8852.32697 & 71.32 & 1.90 & sophie \\
+
+  8735.45100 & -110.35 & 1.83 & sophie \\
+
+  9063.63828 & 59.26 & 1.85 & sophie \\
+
+  9127.39181 & 57.00 & 1.85 & sophie \\
+
+  9048.57372 & 61.68 & 1.80 & sophie \\
+
+  8862.29240 & 79.95 & 1.83 & sophie \\
+
+  9114.49336 & 57.50 & 1.76 & sophie \\
+
+  8759.49146 & -109.48 & 2.13 & sophie \\
+
+  8490.28652 & 10.75 & 1.81 & sophie \\
+
+  8394.42553 & 26.10 & 1.82 & sophie \\
+
+  8454.31631 & 16.64 & 1.80 & sophie \\
+
+  9121.60607 & 50.07 & 2.26 & sophie \\
+
+  8824.33720 & 66.51 & 1.82 & sophie \\
+
+  9200.26683 & 41.94 & 1.81 & sophie \\
+
+  9055.52401 & 66.50 & 1.76 & sophie \\
+
+  8142.24668 & 60.53 & 1.85 & sophie \\
+
+  8753.46408 & -99.65 & 1.83 & sophie \\
+
+  8288.57122 & 32.21 & 1.75 & sophie \\
+
+\tablecomments{ Only the first 50 of 26 RVs are displayed in this table. \
+Use \texttt{radvel table -t rv} to save the full \LaTeX\ table as a separate file. }
+\enddata
+\end{deluxetable}
+
+% Multi-panel figure
+ 
+\begin{figure*}[!h]
+\centering 
+
+\includegraphics[height=8.0in,width=6.0in,keepaspectratio]{hd224016_rv_multipanel.pdf}
+\caption{ Best-fit 1-planet Keplerian orbital model
+  for HD224016. The maximum likelihood model is plotted while
+  the orbital parameters listed in Table \ref{tab:params} are the
+  median values of the posterior distributions.  The thin blue line is
+  the best fit 1-planet model. We add in quadrature
+  the RV jitter term(s) listed in Table \ref{tab:params} with the
+  measurement uncertainties for all RVs.  {\bf b)} Residuals to the
+  best fit 1-planet model. {\bf c)} RVs phase-folded
+  to the ephemeris of planet b. The Keplerian orbital models for all
+  other planets (if any) have been subtracted.  The small point colors
+  and symbols are the same as in panel {\bf a}.  Red circles (if
+  present) are the same velocities binned in 0.08 units of orbital
+  phase.  The phase-folded model for planet b is shown as the blue
+  line.}
+\end{figure*}
+ 
+
+% Corner plot
+ 
+\begin{figure*}[!h]
+\centering
+
+\includegraphics[height=8.0in,width=6.0in,keepaspectratio]{hd224016_corner.pdf}
+\caption{Posterior distributions for all free parameters.}
+\end{figure*} 
+
+% Corner plot for derived parameters
+ 
+
+\lfoot{
+  \footnotesize{
+    Report produced by \texttt{RadVel} v1.4.11: 
+    \href{http://radvel.readthedocs.io}{http://radvel.readthedocs.io}
+  }
+}
+\end{document}
