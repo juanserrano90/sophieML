@@ -21,6 +21,12 @@ test
 ''aca van todos los datasets que se van a usar para testear luego
 la corrección, tienen que ser estrellas con planetas conocidos para luego comparar parametros''
 
-
-ultimo approach:
-no importa si tienen drift, usar todo, pero HR.
+header keys meaning
+''
+temperatures
+HIERARCH OHP INS TEMP1 NAME=    'GRATING'  /
+HIERARCH OHP INS TEMP2 NAME=        'CCD'  /
+HIERARCH OHP INS TEMP3 NAME=  'Air local'  /
+Pressure
+HIERARCH OHP INS PRES1 NAME=        'AIR'  /
+HIERARCH OHP INS PRES2 NAME=       'TANK'  /''
