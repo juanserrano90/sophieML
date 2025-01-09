@@ -1,3 +1,27 @@
+-----------------------
+final sets of stars
+TRAIN
+    HD185144
+    HD89269
+    HD9407
+    HD31501
+    HD205286
+TEST
+    HD224016
+    HD17820
+    BD+700503
+    TOI1273
+    TOI1736
+    TOI2134
+    TOI1710
+    TOI1296
+    TOI1298
+    TOI1199
+    TOI1836
+    TOI5076
+........................
+
+
 train original
 HD185144
 HD89269
