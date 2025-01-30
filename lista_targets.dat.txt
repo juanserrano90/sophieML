@@ -1,0 +1,89 @@
+-----------------------
+final sets of stars
+TRAIN
+    HD185144
+    HD89269
+    HD9407
+    HD31501
+    HD205286
+TEST
+    HD224016        - 1 planet long P, unpublished
+    HD17820         - 1 planet long P, unpublished
+    BD+700503       - 1 planet long P, unpublished
+    TOI1273         - 1 planet, Serrano Bell et al 2024
+    TOI1736         - 2 planets, Martioli et al 2023
+    TOI2134         - 2 planets, Rescigno et al. 2024
+    TOI1710         - 1 planet, publishd Konig et al 2022
+    TOI1296         - 1 planet, Moutou et al 2021
+    TOI1298         - 1 planet, Moutou et al 2021
+    TOI1199         - 1 planet, Serrano Bell et al 2024
+    TOI1836         - 1 planet, Heidari et al 2025 (possible second inner planet)
+    TOI5076         - 1 planet, Heidari et al 2025
+........................
+
+
+train original
+HD185144
+HD89269
+HD9407
+
+train adicional estrellas de baja actividad
+HD221354 - SOLO 3 PUNTOS DESDE 2012, no
+HD117043 - no hay puntos desde 2013
+HD15830 - no hay puntos desde 2015
+HD1562 - no hay puntos desde 2015
+HD205286 - 30 puntos en 2018
+HD37693 - 1 punto desde 2017
+HD31501 - 20 puntos en 2018
+HD3141 - no hay puntos desde 2016
+HIP111883 - no hay puntos desde 2016
+HD404 - no hay puntos desde 2014
+HD202123 - no hay puntos desde 2016
+HD51219 - no hay puntos desde 2017
+HD221830 - no hay puntos desde 2015
+HD31865 - 1 punto en 2021
+HD39881 - 10 puntos en 2018
+HD192139 - no hay puntos desde 2012
+HD53927 - no hay puntos desde 2013
+HD181655 - no hay puntos desde 2014
+HD207874 - no hay puntos desde 2015
+HD10126 - no hay puntos desde 2014
+HD220221 - no hay puntos desde 2015
+HD210144 - no hay puntos desde 2017
+HD33021 - 13 puntos en 2018
+HD201924 - no hay puntos desde 2016
+HD151877 - no hay puntos desde 2015
+
+
+tests original
+HD207897 (planeta Neda)
+HD173701 -> no tiene planeta, no nos sirve
+
+tests adicionales targets con planetas:
+HD224016
+HD17820
+BD+700503
+TOI1273
+TOI1736
+TOI2134
+TOI1710
+TOI1296
+TOI1298
+HD88986
+TOI1199
+TOI1836
+TOI5076
+
+LISTA FINAL A BAJAR
+['HD185144', 'HD89269', 'HD9407', 'HD205286', 'HD31501'] TRAIN
+['HD224016', 'HD17820', 'BD+700503', 'TOI1273', 'TOI1736', 'TOI2134', 
+'TOI1710', 'TOI1296', 'TOI1298', 'HD88986', 'TOI1199', 'TOI1836', 'TOI5076'] TEST
+
+2022,2023,2024
+['HD185144', 'HD89269', 'HD9407', 'HD205286', 'HD31501'] TRAIN
+['HD224016', 'HD17820', 'BD+700503', 'TOI1273', 'TOI1736', 'TOI2134', 
+'TOI1710', 'TOI1296', 'TOI1298', 'HD88986', 'TOI1199', 'TOI1836', 'TOI5076'] TEST
+
+2018,2019,2020,2021,2022,2023,2024
+['HD205286', 'HD31501'] TRAIN
+['TOI1199', 'TOI1836', 'TOI5076'] TEST
